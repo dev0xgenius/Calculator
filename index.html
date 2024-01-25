@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset = 'UTF-8' />
+
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+    <main id = 'calculator'>
+        <output id = 'output'></output>
+        <table>
+            <tr>
+                <td><input type="button" value="7"></td>
+                <td><input type="button" value="8"></td>
+                <td><input type="button" value="9"></td>
+                <td><input type="button" value = "+" class = 'operator'></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4"></td>
+                <td><input type="button" value="5"></td>
+                <td><input type="button" value="6"></td>
+                <td><input type="button" value = "-" class = 'operator'></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1"></td>
+                <td><input type="button" value="2"></td>
+                <td><input type="button" value="3"></td>
+                <td><input type="button" value = "*" class = 'operator'></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0"></td>
+                <td><input class = 'extra-action' type = 'button' value = "=" /></td>
+                <td><input class = 'extra-action' type = 'button' id = 'deleteBtn' value = "x"></td>
+                <td><input type="button" value = "/" class = 'operator'></td>
+            </tr>
+        </table>
+    </main>
+</body>
+<script src = './app.js'></script>
+</html>
